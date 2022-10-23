@@ -30,11 +30,11 @@
     });
     allanswers = answers;
     allanswers.sort((a, b) => a.id - b.id);
-    console.log(allanswers);
+    // console.log(allanswers);
     all = allanswers.map((answer) => {
       return answer.answer;
     });
-    console.log(all);
+    // console.log(all);
   });
 
   let i = 0;
@@ -52,8 +52,8 @@
     } else {
       i += 1;
     }
-    console.log(i);
-    console.log(allanswers);
+    // console.log(i);
+    // console.log(allanswers);
   };
 
   const showform = () => {
