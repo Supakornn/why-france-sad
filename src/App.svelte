@@ -2,12 +2,9 @@
   import TailwindCss from "./TailwindCSS.svelte";
   import firebase from "firebase/compat/app";
   import {
-    getFirestore,
     collection,
     onSnapshot,
     addDoc,
-    orderBy,
-    getDocs
   } from "firebase/firestore";
   import "firebase/compat/firestore";
 
