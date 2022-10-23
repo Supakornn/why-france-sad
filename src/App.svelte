@@ -44,6 +44,8 @@
     } else {
       i -= 1;
     }
+    let form = document.getElementById("form");
+      form.style.display = "none";
   };
 
   const next = () => {
@@ -52,6 +54,8 @@
     } else {
       i += 1;
     }
+    let form = document.getElementById("form");
+      form.style.display = "none";
     // console.log(i);
     // console.log(allanswers);
   };
