@@ -107,7 +107,7 @@
             showform();
           }}
           class="btn shadow-lg left-0 px-4 py-2  rounded-xl bg-blue-600 text-white transition duration-200 ease-in-out mb-2"
-          >อยากเพิ่มคำตอบใช่มั้ย</button
+          >เพิ่มคำตอบ</button
         >
         <div id="form" class="hideform">
           <form on:submit|preventDefault={submit}>
